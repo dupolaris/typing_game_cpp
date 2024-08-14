@@ -1,0 +1,37 @@
+Setup OpenGL in Visual Studio:           https://www.youtube.com/watch?v=OR4fNpBjmq8&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2&index=2
+Youtube Playlist to learn OpenGL:        https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
+
+					OR FOLLOW INSTRUCTIONS GIVEN BELOW:
+
+
+Statement Purpose:
+The objective of this lab is to setup of OpenGL in visual studeio 2012.
+Activity Outcomes:
+
+Installation of OpenGL (GLUT/GLEW) in Visual Studio 2012
+
+After installation of Visual Studio 2012, perform the following steps to include libraries and
+additional directories of OpenGL
+1. Click on File menu  New  Project  click Visual C++  then select Empty
+Project.
+2. Menus (Right or Left side) where project name and source available  Right click on
+Project and select Properties.
+3. Click C/C++  General option options appear of general option on right box 
+Select Additional Include Directories  Edit  locate and open OpenGL folder 
+open freeglut folder  then select Include folder.
+4. Add another folder using same options above that is OpenGL folder  open glew32
+folder  then select Include folderOK
+5. Click on Linker Menu on same window  select Input menu  select Additional
+Dependencies  write “freeglut.lib” and “glew32.lib”.
+6. Click on General option of Linker Menu  Additional Library Directories  Edit 
+locate &amp; open OpenGL folder  select and open freeglut folder  select “lib” folder.
+7. Add another folder using same options above that isopen OpenGL folder  select and
+open glew32 folder  select “lib” folder.
+8. Right click on project  select option “open folder in file explorer”  copy
+freeglut.dll &amp; glew32.dll files from OpenGL folder and paste them to project’s opened
+folder (Visual studio 2012  Project name  OpenGL).
+9. Also copy both files (freeglut.dll and glew32.dll) and paste on Windows  system32
+folder.
+10. Right click on source folder in Visual studio projects and create new CPP file with
+extension “.cpp”. Write or paste written code and run using “Local window
+Debugger” option.
