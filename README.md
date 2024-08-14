@@ -1,5 +1,5 @@
 ### Code is in text file and Visual Studio Code must be setup prior to run this project.
-### Glue and Glut library is provided along with the setupLibraries Text file.
+### Glew and Glut library is provided along with the setupLibraries Text file.
 #### Thanks to my team mate [Shaan Ayub](https://github.com/Shaan3274) for the collaboration.
 <br> <br>
 ![game start](https://github.com/user-attachments/assets/cefe759e-3b32-4263-8433-69232d662533)
